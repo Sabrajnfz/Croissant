@@ -1,0 +1,42 @@
+body {
+  background-color: pink;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+  --primary-color: blueviolet;
+  --secondary-color: white;
+}
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+}
+p {
+  text-align: center;
+  justify-content: center;
+  line-height: 1.5em;
+}
+.menu-links {
+  margin: 0 10px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  border: 2px solid var(--primary-color);
+  padding: 10px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+.menu-links:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.footer {
+  margin-top: 60px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 9px;
+}
+a {
+  color: var(--primary-color);
+}
